@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wxcdf7a1f8a26eb01f",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "dde402c127915b613e92612b6eaf43bb",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -33,9 +33,9 @@ export const config = {
       // 想要发送的人的名字
       name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: odQia5uptqnvh799pT6lJaUy_3Vw"",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: 	5Ft9Z7eV7eXxk4EVGV3KEw7a1ewtlN2IIf-W9mHiXsw"",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -67,15 +67,15 @@ export const config = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
+      id: "odQia5uptqnvh799pT6lJaUy_3Vw",
+      useTemplateId: "5Ft9Z7eV7eXxk4EVGV3KEw7a1ewtlN2IIf-W9mHiXsw",
+      province: "广东",
+      city: "深圳",
+      horoscopeDate: '10-10',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [ {"type": "生日", "name": "李佳", "year": "2000date": "10-10"},
+      customizedDateList: [ {"keyword": "love_day", date: "2022-09-08"},]
     },
     {
       name: "老婆2",
@@ -108,7 +108,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "5Ft9Z7eV7eXxk4EVGV3KEw7a1ewtlN2IIf-W9mHiXsw",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -116,7 +116,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: odQia5uptqnvh799pT6lJaUy_3Vw"",
     },
   ],
 
@@ -198,7 +198,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  LITERARY_PREFERENCE: "我嫩爹
 
 
 }
